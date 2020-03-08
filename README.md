@@ -1,1 +1,4 @@
-# Balgos_Elaine_1056_responsiveFlexbox
+# HW_ResponsiveFlexbox
+
+### Author
+Elaine Balgos

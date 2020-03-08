@@ -1,0 +1,69 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #000;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  max-width: 812px;
+  flex-wrap: wrap;
+}
+
+.column {
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  height: 625px;
+  flex: 1 1 auto;
+  /* flex-grow; flex-shrink; flex-basis*/
+}
+
+
+@media screen and (min-width: 812px) {
+
+  .box1 {
+    background: pink;
+  }
+
+  .box2 {
+    background: red;
+  }
+
+  .box3, .box4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 641px) {
+
+  .container {
+    flex-direction: row;
+  }
+
+  .box1 {
+    background: blue;
+  }
+
+  .box2 {
+    background: purple;
+  }
+
+  .box3 {
+    background: grey;
+  }
+
+  .box4 {
+    background: brown;
+  }
+}
+
+/* MOBILE SIZE */
+/* Apple_iphoneX - 375x812 */
+/* Galaxy_S6; HTC_One; GooglePixel_XL - 360x640 */
+/* WindowsPhone - 400x812 */
